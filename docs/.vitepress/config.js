@@ -7,7 +7,7 @@ export default {
     logo: "/favicon.ico",
     editLink: {
       pattern:
-        "https://github.com/lore-hub-app/description-service/edit/main/docs/:path",
+        "https://github.com/lore-hub-app/dialogue-schema-docs/edit/main/docs/:path",
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/lore-hub-app" },
