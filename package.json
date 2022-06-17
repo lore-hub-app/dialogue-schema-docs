@@ -1,0 +1,17 @@
+{
+  "name": "dialogue-schema-docs",
+  "version": "1.0.0",
+  "description": "This is the documentation for the dialogue schema of the LoreHub.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "author": "LoreHub",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.2",
+    "vue": "^3.2.37"
+  }
+}
