@@ -1,13 +1,13 @@
 ---
 layout: home
 
-title: LoreHub Dialogue Schema
+title: LoreHub Dialogue System
 titleTemplate: Engine independent and holistic dialog schema for any game
 
 hero:
   name: LoreHub 
-  text: Dialogue Schema
-  tagline: Engine independent and holistic dialog schema for any game
+  text: Dialogue System
+  tagline: Engine independent and holistic Dialogue System for any game
   actions:
     - theme: brand
       text: Get Started
