@@ -1,0 +1,11 @@
+:root {
+  --vp-home-hero-name-color: rgb(204, 85, 85);
+  --vp-c-accent: #dab40b;
+  --vp-c-brand: rgb(130, 163, 255);
+  --vp-c-brand-hover-text: rgb(130, 163, 255);
+  --vp-button-brand-bg: rgb(130, 163, 255);
+  --vp-button-brand-border: rgb(130, 163, 255);
+  --vp-button-brand-hover-border: rgb(130, 163, 255);
+  --vp-button-brand-hover-text: rgb(255, 255, 255);
+  --vp-button-brand-hover-bg:rgb(130, 163, 255);
+}
