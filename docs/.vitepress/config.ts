@@ -44,16 +44,22 @@ export default {
         ],
       },
       {
-        text: "Api",
+        text: "Tutorials",
         items: [
-          { text: "Export Schema", link: "/export-schema/v1" },
-          { text: "Document", link: "/document/v1" },
-          { text: "Dialogue", link: "/dialogue/v1" },
-          { text: "Dialogue Node", link: "/dialogue-node/v1" },
-          { text: "Dialogue Node Option", link: "/dialogue-node-option/v1" },
-          { text: "Variable", link: "/variable/v1" },
-          { text: "Meta Schema", link: "/meta-schema/v1" },
-          { text: "Content Block", link: "/content-block/v1" }
+          { text: "Dialogue System Unity", link: "/tutorials/unity/index" },
+        ]
+      },
+      {
+        text: "Dialogue Schema Api",
+        items: [
+          { text: "Export Schema", link: "/dialogue-schema-api/export-schema/v1" },
+          { text: "Document", link: "/dialogue-schema-api/document/v1" },
+          { text: "Dialogue", link: "/dialogue-schema-api/dialogue/v1" },
+          { text: "Dialogue Node", link: "/dialogue-schema-api/dialogue-node/v1" },
+          { text: "Dialogue Node Option", link: "/dialogue-schema-api/dialogue-node-option/v1" },
+          { text: "Variable", link: "/dialogue-schema-api/variable/v1" },
+          { text: "Meta Schema", link: "/dialogue-schema-api/meta-schema/v1" },
+          { text: "Content Block", link: "/dialogue-schema-api/content-block/v1" }
         ]
       },
     ],
