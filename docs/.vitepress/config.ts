@@ -1,5 +1,7 @@
 import {
-title, description
+  title,
+  description,
+  ogImage
 } from './meta'
 
 export default {
@@ -13,14 +15,11 @@ export default {
     ['meta', { property: 'og:title', content: title }],
     ['meta', { property: 'og:description', content: description }],
     ['meta', { property: 'og:url', content: 'https://LoreHub.app' }],
-    ['meta', { property: 'og:image', content: 'https://LoreHub.app/og.png' }],
-    // ['meta', { name: 'twitter:title', content: vitestName }],
-    // ['meta', { name: 'twitter:description', content: vitestDescription }],
-    // ['meta', { name: 'twitter:image', content: ogImage }],
-    // ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    // ['link', { href: font, rel: 'stylesheet' }],
-    // ['link', { rel: 'mask-icon', href: '/logo.svg', color: '#ffffff' }],
-    // ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180' }],
+    ['meta', { property: 'og:image', content: ogImage }],
+    ['meta', { name: 'twitter:title', content: 'LoreHub' }],
+    ['meta', { name: 'twitter:description', content: description }],
+    ['meta', { name: 'twitter:image', content: ogImage }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ],
   themeConfig: {
     siteTitle: "Docs & Tutorials",
